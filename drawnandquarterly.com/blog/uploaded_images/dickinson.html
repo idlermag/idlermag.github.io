@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="en" dir="ltr" prefix="fb: http://ogp.me/ns/fb# og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product#"><!--<![endif]-->
+
+
+<!-- Mirrored from drawnandquarterly.com/blog/uploaded_images/dickinson.jpg by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jun 2020 12:12:06 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"7ba982a5cf",applicationID:"4166257"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1169.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+<link rel="alternate" type="application/rss+xml" title="BLOG | DRAWN &amp; QUARTERLY" href="../../rss.xml/uploaded_images/dickinson.jpg" />
+<link rel="shortcut icon" href="https://drawnandquarterly.com/sites/all/themes/dqtheme/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="apple-touch-icon" href="../../sites/all/themes/dqtheme/images/apple-touch-icon.png" />
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+<link rel="canonical" href="dickinson.html" />
+<link rel="shortlink" href="dickinson.html" />
+<meta property="og:site_name" content="Drawn &amp; Quarterly" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://drawnandquarterly.com/blog/uploaded_images/dickinson.jpg" />
+  <title>| Drawn & Quarterly</title>
+
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, user-scalable=0">
+    <meta http-equiv="cleartype" content="on">
+
+  <link type="text/css" rel="stylesheet" href="../../sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../sites/default/files/css/css_tGTNtRAsNJmcVz4r7F6YCijbrQGDbBmziHSrRd1Stqc.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../sites/default/files/css/css_B7mC6VKwZ7TPfcy_9evWBSrgyfujL-ioeBCEGcJqERk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../sites/default/files/css/css_mSOJivk2p7CjauPLr8CjWeMfOhSTIj6cPEbslQMWsgA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../../use.fontawesome.com/releases/v5.0.10/css/all.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../sites/default/files/css/css_KXxUSASuN71mJMfMWF8vDZa5swz6lpR4HqGSO033zh8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alef:regular&amp;subset=latin" media="all" />
+<link type="text/css" rel="stylesheet" href="../../sites/default/files/css/css_lVHvRUf-mv8TGoG9GS3w3-IZ_-RfBVgueUsaKATcN1Q.css" media="all" />
+  <script src="../../sites/default/files/js/js_h8Od-FAGkhR_7A30HaaMaTrO_5Hale-5uw8QHV7ogq0.js"></script>
+<script src="../../sites/default/files/js/js_m9SftDDj9fSjzUpF3pkRRlS_M3bZ6dMlUwcj1JoelfU.js"></script>
+<script src="../../sites/default/files/js/js_gh8u0P2FjrZBU7aUqdMg08JAy7T0lOITk_jsYUcJcqg.js"></script>
+<script src="../../sites/default/files/js/js_gPqjYq7fqdMzw8-29XWQIVoDSWTmZCGy9OqaHppNxuQ.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","../../../www.google-analytics.com/analytics.js","ga");ga("create", "UA-53046502-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script src="../../sites/default/files/js/js_KxjNZfT9C5-vA-U4UXr-Ip_ug53vVGTVW-rQJ5zbIuo.js"></script>
+<script src="../../sites/default/files/js/js_x3lp8kmQElZjtKOPdtP15U8RA0BqnrJUYD_IzSpizB0.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"dqtheme","theme_token":"8sBH9faboqoeLy2AZSbX2zhi7n0H040y25n70uNVu5s","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.button.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.mouse.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.draggable.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.position.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.resizable.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.dialog.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/custom\/dq_slider\/js\/jquery.bxslider.min.js":1,"sites\/all\/modules\/custom\/dq_slider\/js\/dq_slider.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/libraries\/neat_scrollbar\/jquery.mCustomScrollbar.min.js":1,"sites\/all\/libraries\/mousewheel\/jquery.mousewheel.min.js":1,"sites\/all\/modules\/contrib\/neat_scrollbar\/js\/neat_scrollbar_default.js":1,"sites\/all\/modules\/contrib\/extlink\/js\/extlink.js":1,"sites\/all\/modules\/custom\/dq_pdf\/js\/dq_pdf.js":1,"sites\/all\/themes\/dqtheme\/js\/jquery.actual.min.js":1,"sites\/all\/themes\/dqtheme\/js\/jquery.autoellipsis-1.0.10.min.js":1,"sites\/all\/themes\/dqtheme\/js\/zeroclipboard\/ZeroClipboard.min.js":1,"sites\/all\/themes\/dqtheme\/js\/dqtheme.js":1,"sites\/all\/themes\/dqtheme\/js\/mobile_code.js":1,"sites\/all\/themes\/dqtheme\/js\/script.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.button.css":1,"misc\/ui\/jquery.ui.resizable.css":1,"misc\/ui\/jquery.ui.dialog.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/custom\/dq_slider\/css\/jquery.bxslider.css":1,"sites\/all\/modules\/custom\/dq_slider\/css\/dq_slider.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/css\/extlink.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/neat_scrollbar\/jquery.mCustomScrollbar.css":1,"https:\/\/use.fontawesome.com\/releases\/v5.0.10\/css\/all.css":1,"sites\/all\/themes\/dqtheme\/system.menus.css":1,"sites\/all\/themes\/dqtheme\/css\/normalize.css":1,"sites\/all\/themes\/dqtheme\/css\/wireframes.css":1,"sites\/all\/themes\/dqtheme\/css\/layouts\/fixed-width.css":1,"sites\/all\/themes\/dqtheme\/css\/page-backgrounds.css":1,"sites\/all\/themes\/dqtheme\/css\/tabs.css":1,"sites\/all\/themes\/dqtheme\/css\/pages.css":1,"sites\/all\/themes\/dqtheme\/css\/blocks.css":1,"sites\/all\/themes\/dqtheme\/css\/navigation.css":1,"sites\/all\/themes\/dqtheme\/css\/views-styles.css":1,"sites\/all\/themes\/dqtheme\/css\/nodes.css":1,"sites\/all\/themes\/dqtheme\/css\/comments.css":1,"sites\/all\/themes\/dqtheme\/css\/forms.css":1,"sites\/all\/themes\/dqtheme\/css\/fields.css":1,"sites\/all\/themes\/dqtheme\/css\/overrides.css":1,"sites\/all\/themes\/dqtheme\/css\/mobile.css":1,"sites\/all\/themes\/dqtheme\/css\/print.css":1,"https:\/\/fonts.googleapis.com\/css?family=Alef:regular\u0026subset=latin":1,"public:\/\/fontyourface\/local_fonts\/Preussische-normal-normal\/stylesheet.css":1,"public:\/\/fontyourface\/local_fonts\/Trade_Gothic_Bold_Condensed_20-normal-bold\/stylesheet.css":1,"public:\/\/fontyourface\/local_fonts\/Trade_Gothic_Condensed_18-normal-bold\/stylesheet.css":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"neatScrollbarSet":[],"urlIsAjaxTrusted":{"\/blog\/uploaded_images\/dickinson.jpg":true},"extlink":{"extTarget":0,"extClass":0,"extLabel":"(link is external)","extImgClass":0,"extIconPlacement":"append","extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)","extUseFontAwesome":false},"dqtheme":{"zeroswf":"sites\/all\/themes\/dqtheme\/js\/zeroclipboard\/ZeroClipboard.swf"}});</script>
+      <!--[if lt IE 9]>
+    <script src="/sites/all/themes/zen/js/html5-respond.js"></script>
+    <![endif]-->
+  </head>
+<body class="html not-front not-logged-in no-sidebars page-blog page-blog-uploaded-images page-blog-uploaded-images-dickinsonjpg section-blog page-views" >
+      <p id="skip-link">
+      <a href="#main-menu" class="element-invisible element-focusable">Jump to navigation</a>
+    </p>
+      
+<div id="page">
+	<a id="page-top" />
+  <header id="header" role="banner">
+
+    <div id="navigation">
+
+      
+        <div class="region region-navigation">
+    <div id="block-block-1" class="block block-block first odd">
+
+      
+  <a href="https://drawnandquarterly.com/cart"><img src="../../sites/all/themes/dqtheme/images/icons/cart.png" width="22.8" height="18" alt="Shopping Cart" title="View your cart" /><span id="cart-qty">My Cart (0)</span></a>
+</div>
+<div id="block-block-27" class="block block-block last even">
+
+      
+  <h2><a href="http://mtl.drawnandquarterly.com/" target="_blank">Visit our Montreal Bookstores  <i class="fas fa-external-link-alt"> </i></a></h2>
+
+</div>
+  </div>
+
+    </div><!-- /#navigation -->
+
+		<button class="navbar-toggle" type="button">
+      <span class="icon-bar top-bar"></span>
+      <span class="icon-bar middle-bar"></span>
+      <span class="icon-bar bottom-bar"></span>
+    </button>
+
+    <div id="header-padding">
+              <a href="https://drawnandquarterly.com/" title="Home" rel="home" id="logo"><img src="../../sites/all/themes/dqtheme/logo.png" alt="Home" /></a>
+      
+      
+      
+        <div class="header__region region region-header">
+    <div id="block-search-api-page-search" class="block block-search-api-page first odd">
+
+      
+  <form action="https://drawnandquarterly.com/blog/uploaded_images/dickinson.jpg" method="post" id="search-api-page-search-form-search" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-keys-1">
+  <label class="element-invisible" for="edit-keys-1">Enter your keywords </label>
+ <input placeholder="Search" type="text" id="edit-keys-1" name="keys_1" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<input type="hidden" name="id" value="1" />
+<input type="submit" id="edit-submit-1" name="op" value="Search" class="form-submit" /><input type="hidden" name="form_build_id" value="form-z0LHGC2nyJWN4X1Dkco-Hc--hjnH2eDzHD6rC3Hd6J4" />
+<input type="hidden" name="form_id" value="search_api_page_search_form_search" />
+</div></form>
+</div>
+<div id="block-menu-menu-main-menu-right" class="block block-menu even" role="navigation">
+
+      
+  <ul class="menu"><li class="menu__item is-leaf first leaf"><a href="https://www.facebook.com/drawnandquarterly" title="" target="_blank" class="menu__link">Facebook</a></li>
+<li class="menu__item is-leaf leaf"><a href="https://twitter.com/DandQ" title="" target="_blank" class="menu__link">Twitter</a></li>
+<li class="menu__item is-leaf last leaf"><a href="http://instagram.com/drawnandquarterly" title="" target="_blank" class="menu__link">Instagram</a></li>
+</ul>
+</div>
+<div id="block-system-main-menu" class="block block-system block-menu last odd" role="navigation">
+
+      
+  <ul class="menu"><li class="menu__item is-leaf first leaf"><a href="https://drawnandquarterly.com/about" class="menu__link">About</a></li>
+<li class="menu__item is-leaf leaf"><a href="https://drawnandquarterly.com/books-new-releases" title="" class="menu__link">Books</a></li>
+<li class="menu__item is-leaf leaf"><a href="https://drawnandquarterly.com/events" class="menu__link">Events</a></li>
+<li class="menu__item is-leaf leaf"><a href="https://drawnandquarterly.com/press" class="menu__link">Press</a></li>
+<li class="menu__item is-leaf last leaf"><a href="https://drawnandquarterly.com/author_s" title="" class="menu__link">Authors</a></li>
+</ul>
+</div>
+  </div>
+    </div>
+  </header>
+
+  <div id="main">
+    
+    
+		<div id="content_sides" >
+
+
+    		
+                
+          
+        <div id="content" class="column" role="main">
+                    <a id="main-content"></a>
+              			                                        
+                    
+          
+
+
+<div class="view view-blog view-id-blog view-display-id-page view-dom-id-f2c5e80aa193f0f089296b3ef696ca17">
+        
+  
+  
+      <div class="view-content">
+        
+    <article class="node-15655 node node-blog node-promoted node-teaser clearfix">
+
+      <header>
+                    <h2 class="node__title node-title"><a href="https://drawnandquarterly.com/blog/2020/06/dq-acquires-baltimore-brownfield-ebony-flowers">D+Q Acquires Baltimore Brownfield by Ebony Flowers</a></h2>
+            
+      
+          </header>
+  
+  <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="https://drawnandquarterly.com/blog/2020/06/dq-acquires-baltimore-brownfield-ebony-flowers"><img src="../../sites/default/files/styles/blog_teaser/public/images/blog/2020/06/brownfield_draft_4_pg_copy6b6b.jpg?itok=fFmlEu8z" alt="" /></a></div></div></div><span class="blog-date">June 23, 2020</span><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even">As announced in Publishers Lunch, D+Q Publisher Peggy Burns has acquired BALTIMORE BROWNFIELD by Ebony Flowers, cartoonist of the Believer Book Award winner, Ignatz Award winner,…</div></div></div>
+  <ul class="links inline"><li class="node-readmore first last"><a href="https://drawnandquarterly.com/blog/2020/06/dq-acquires-baltimore-brownfield-ebony-flowers" rel="tag" title="D+Q Acquires Baltimore Brownfield by Ebony Flowers">Read More</a></li>
+</ul>
+  
+</article><!-- /.node -->
+  
+  
+    <article class="node-15649 node node-blog node-promoted node-teaser clearfix">
+
+      <header>
+                    <h2 class="node__title node-title"><a href="https://drawnandquarterly.com/blog/2020/06/wendy-master-art-walter-scott">Wendy, Master of Art by Walter Scott</a></h2>
+            
+      
+          </header>
+  
+  <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="https://drawnandquarterly.com/blog/2020/06/wendy-master-art-walter-scott"><img src="../../sites/default/files/styles/blog_teaser/public/images/blog/2020/06/wendy19939.jpg?itok=uX5peqpK" alt="" /></a></div></div></div><span class="blog-date">June 16, 2020</span><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even">Walter Scott is a natural. His Wendy comics are hilarious, of course, and man, are they compulsively readable. Walter’s stories propel forward naturally and his comic timing is…</div></div></div>
+  <ul class="links inline"><li class="node-readmore first last"><a href="https://drawnandquarterly.com/blog/2020/06/wendy-master-art-walter-scott" rel="tag" title="Wendy, Master of Art by Walter Scott">Read More</a></li>
+</ul>
+  
+</article><!-- /.node -->
+  
+  
+    <article class="node-15645 node node-blog node-promoted node-teaser clearfix">
+
+      <header>
+                    <h2 class="node__title node-title"><a href="https://drawnandquarterly.com/blog/2020/06/sweet-time-weng-pixin-0">Sweet Time by Weng Pixin</a></h2>
+            
+      
+          </header>
+  
+  <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="https://drawnandquarterly.com/blog/2020/06/sweet-time-weng-pixin-0"><img src="../../sites/default/files/styles/blog_teaser/public/images/blog/2020/06/b534b745-9f2a-4ba0-a401-72c2397f4f9cd498.jpg?itok=gRzwseEo" alt="" /></a></div></div></div><span class="blog-date">June 10, 2020</span><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even">Sometimes I find it easy to go on and on about a comic that I love and I don’t feel like it affects how people read it or are going to read it. Somehow SWEET TIME feels different…</div></div></div>
+  <ul class="links inline"><li class="node-readmore first last"><a href="https://drawnandquarterly.com/blog/2020/06/sweet-time-weng-pixin-0" rel="tag" title="Sweet Time by Weng Pixin">Read More</a></li>
+</ul>
+  
+</article><!-- /.node -->
+  
+  
+    <article class="node-15643 node node-blog node-promoted node-teaser clearfix">
+
+      <header>
+                    <h2 class="node__title node-title"><a href="https://drawnandquarterly.com/blog/2020/06/home-deforge-gauld-scott-stein-et-al">At Home with DeForge, Gauld, Scott, Stein, et al</a></h2>
+            
+      
+          </header>
+  
+  <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="https://drawnandquarterly.com/blog/2020/06/home-deforge-gauld-scott-stein-et-al"><img src="../../sites/default/files/styles/blog_teaser/public/images/blog/2020/06/newsletter24351.jpg?itok=anQpVkjt" alt="" /></a></div></div></div><span class="blog-date">June 9, 2020</span><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even">In an effort to connect with D+Q authors and share their wonderful books, we've launched a new digital event series called At Home with D+Q. For their At Homes, authors like Tom…</div></div></div>
+  <ul class="links inline"><li class="node-readmore first last"><a href="https://drawnandquarterly.com/blog/2020/06/home-deforge-gauld-scott-stein-et-al" rel="tag" title="At Home with DeForge, Gauld, Scott, Stein, et al">Read More</a></li>
+</ul>
+  
+</article><!-- /.node -->
+  
+  
+    <article class="node-15642 node node-blog node-promoted node-teaser clearfix">
+
+      <header>
+                    <h2 class="node__title node-title"><a href="https://drawnandquarterly.com/blog/2020/06/list-black-owned-bookstores-and-comics-shops">A list of Black-owned bookstores and comics shops</a></h2>
+            
+      
+          </header>
+  
+  <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="https://drawnandquarterly.com/blog/2020/06/list-black-owned-bookstores-and-comics-shops"><img src="../../sites/default/files/styles/blog_teaser/public/images/blog/2020/06/screen_shot_2020-06-09_at_1.35.20_pme32f.png?itok=67N5yiIH" alt="" /></a></div></div></div><span class="blog-date">June 8, 2020</span><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even">We noticed there were a lot of Black-owned bookstore/comic shop lists going around, and we wanted to do what we could to help get the word out. We thought we’d offer up a combined…</div></div></div>
+  <ul class="links inline"><li class="node-readmore first last"><a href="https://drawnandquarterly.com/blog/2020/06/list-black-owned-bookstores-and-comics-shops" rel="tag" title="A list of Black-owned bookstores and comics shops">Read More</a></li>
+</ul>
+  
+</article><!-- /.node -->
+  
+    </div>
+  
+      <h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a title="Go to page 2" href="https://drawnandquarterly.com/blog?page=1">2</a></li>
+<li class="pager-item"><a title="Go to page 3" href="https://drawnandquarterly.com/blog?page=2">3</a></li>
+<li class="pager-item"><a title="Go to page 4" href="https://drawnandquarterly.com/blog?page=3">4</a></li>
+<li class="pager-item"><a title="Go to page 5" href="https://drawnandquarterly.com/blog?page=4">5</a></li>
+<li class="pager-ellipsis">…</li>
+<li class="pager-next"><a title="Go to next page" href="https://drawnandquarterly.com/blog?page=1">next</a></li>
+<li class="pager-last last"><a href="https://drawnandquarterly.com/blog?page=593">last</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>
+        </div><!-- /#content -->
+
+
+
+        
+        		</div> <!-- /#content_sides -->
+
+		
+  </div><!-- /#main -->
+
+
+  <div id="pre-footer">
+      <div class="region region-pre-footer1">
+    <div id="block-block-15" class="block block-block first last odd">
+
+        <h2 class="block__title block-title">Contact</h2>
+    
+  <p><strong><em>Publishing Headquarters</em></strong><br />Drawn &amp; Quarterly<br />7030 Saint Denis<br />Montreal, Quebec H2S 2S4<br />514-279-2221</p>
+<p><strong><em>Montreal Storefronts</em></strong><br /><span style="color:rgb(21, 27, 38)"><a href="http://mtl.drawnandquarterly.com/">Librairie Drawn &amp; Quarterly</a></span><br /><span style="color:rgb(21, 27, 38)">211 Bernard Ouest</span><br /><span style="color:rgb(21, 27, 38)">514-279-2224</span><br /><span style="color:rgb(21, 27, 38)"><a href="http://mtl.drawnandquarterly.com/">La Petite Librairie D+Q</a></span><br /><span style="color:rgb(21, 27, 38); font-size:13.008px">176 Bernard Ouest</span><br /><span style="color:rgb(21, 27, 38); font-size:13.008px">514-279-2279</span></p>
+<p> </p>
+
+</div>
+  </div>
+      <div class="region region-pre-footer2">
+    <div id="block-block-17" class="block block-block first odd">
+
+        <h2 class="block__title block-title">Distribution</h2>
+    
+  <p>USA: <a href="http://us.macmillan.com/Catalog.aspx" target="_blank">FSG-MPS</a><br />Canada: <a href="http://www.raincoast.com/order-books/" target="_blank">Raincoast</a><br />UK: <a href="http://www.pguk.co.uk/ordering/" target="_blank">PGUK</a><br />For more information, please<br />read our <a href="https://drawnandquarterly.com/faq-page">distribution FAQ</a><em>.</em></p>
+
+</div>
+<div id="block-block-16" class="block block-block last even">
+
+        <h2 class="block__title block-title">Publicity</h2>
+    
+  <p>To request a review copy, artwork, interviews, or to inquire about an author please email <a href="mailto:publicity@drawnandquarterly.com">publicity</a>.</p>
+
+</div>
+  </div>
+      <div class="region region-pre-footer3">
+    <div id="block-block-18" class="block block-block first odd">
+
+        <h2 class="block__title block-title">Rights &amp; Permissions</h2>
+    
+  <p>To request reprint permissions for scholarly or commercial endeavours as well as foreign publishing rights, please email <a href="mailto:permissions@drawnandquarterly.com">permissions</a>.</p>
+
+</div>
+<div id="block-block-19" class="block block-block last even">
+
+        <h2 class="block__title block-title">Shopping FAQ</h2>
+    
+  <p>D+Q is proud to sell all our books directly from our website. For more information, please read our <a href="https://drawnandquarterly.com/faq-page">shopping FAQ</a>.</p>
+
+</div>
+  </div>
+      <div class="region region-pre-footer4">
+    <div id="block-block-20" class="block block-block first odd">
+
+        <h2 class="block__title block-title">Submissions</h2>
+    
+  <p>Please email a low resolution PDF and cover letter to <a href="mailto:submissions@drawnandquarterly.com">submissions</a>. Do not send dropbox links, please read our <a href="https://drawnandquarterly.com/faq-page">submissions FAQ</a>.</p>
+
+</div>
+<div id="block-block-21" class="block block-block last even">
+
+        <h2 class="block__title block-title">Employment</h2>
+    
+  <p>D+Q is not currently accepting applications for employment. For more information on our biannual Publishing Fellowship, please read our <a href="https://www.drawnandquarterly.com/blog/2018/02/drawn-quarterly-publishing-fellowship">g</a><a href="https://www.drawnandquarterly.com/faq-page">eneral FAQ</a>.</p>
+
+</div>
+  </div>
+      <div class="region region-pre-footer5">
+    <div id="block-block-22" class="block block-block first odd">
+
+        <h2 class="block__title block-title">More Questions?</h2>
+    
+  <p>Don’t see your answer here? Please visit our <a href="https://drawnandquarterly.com/faq-page">general FAQ</a>. You’ll likely find you're looking for. For all other inquiries, please send<br />us an <a href="mailto:info@drawnandquarterly.com">email</a>!</p>
+
+</div>
+<div id="block-block-23" class="block block-block even">
+
+        <h2 class="block__title block-title">Store Locator</h2>
+    
+  <p><a href="https://drawnandquarterly.com/store-locator">Find the store nearest you</a>.</p>
+
+</div>
+<div id="block-block-24" class="block block-block last odd">
+
+        <h2 class="block__title block-title">Catalogue</h2>
+    
+  <p><a href="https://drawnandquarterly.com/catalogue">Browse our catalogue</a>.</p>
+
+</div>
+  </div>
+  </div>
+    <footer id="footer" class="region region-footer">
+    <div id="block-block-13" class="block block-block first last odd">
+
+      
+  <p style="text-align:center">Drawn &amp; Quarterly acknowledges the support of the Government of Canada and the Canada Council for the Arts for our publishing program.<br />Drawn &amp; Quarterly reconnaît l'aide financière du gouvernement du Québec par l'entremise de la Société de développement des entreprises culturelles (SODEC) pour nos activités d'édition. <br /> </p>
+<p style="text-align:center"><img alt="" src="../../sites/default/files/images/wsyiwyg/16/03/mot_symbole_nb-wordmark_bw_0.png" style="font-size:13.008px; height:24px; line-height:1.538em; width:100px" /><span style="font-size:13.008px; line-height:1.538em">       </span><img alt="" src="../../sites/default/files/images/wsyiwyg/16/03/logo_sodec_2_nb_l.png" style="font-size:13.008px; height:24px; line-height:1.538em; width:100px" /></p>
+
+</div>
+  </footer>
+
+</div><!-- /#page -->
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7ba982a5cf","applicationID":"4166257","transactionName":"M11QMkIHX0AHU0UMWwoXcwVED15dSUZYAEMXZ0IHVwM=","queueTime":0,"applicationTime":202,"atts":"HxpTRAodTE4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from drawnandquarterly.com/blog/uploaded_images/dickinson.jpg by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jun 2020 12:12:12 GMT -->
+</html>
